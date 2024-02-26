@@ -7,7 +7,7 @@ const port = 3000;
 
 // Cors configuration - Allows requests from localhost:4200
 const corsOptions = {
-  origin: "http://localhost:4200",
+  origin: "https://zany-giggle-vp66j9944wj3qjr-4200.app.github.dev",
   optionsSuccessStatus: 204,
   methods: "GET, POST, PUT, DELETE",
 };
