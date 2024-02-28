@@ -1,0 +1,3 @@
+Enter in C:\Program Files\Google\Chrome\Application type cmd in FileExplorer and run the following
+chrome.exe --user-data-dir="C://Chrome dev session" --disable-web-security
+Type the link to test https://zany-giggle-vp66j9944wj3qjr-4200.app.github.dev/

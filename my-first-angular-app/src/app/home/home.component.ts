@@ -14,7 +14,7 @@ export class HomeComponent {
 
   ngOnInit() {
     this.productsService
-      .getProducts('https://zany-giggle-vp66j9944wj3qjr-3000.app.github.dev/clothes', { page: 1, perPage: 7 })
+      .getProducts('https://zany-giggle-vp66j9944wj3qjr-3000.app.github.dev/clothes', { page: 0, perPage: 5 })
       .subscribe((products: Products) => {
         console.log(products);
       });

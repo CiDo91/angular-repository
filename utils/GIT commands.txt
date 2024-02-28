@@ -1,0 +1,10 @@
+git branch -c my_new_branch_name
+git branch
+git checkout my_new_branch_name
+git branch
+git branch --help
+MODIFICARI de code
+git add file_name.extension/git add -(toate fisierele)
+git status
+git commit -m "adding hello world file"
+git push origin head
