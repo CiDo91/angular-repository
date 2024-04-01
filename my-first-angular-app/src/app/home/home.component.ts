@@ -29,6 +29,18 @@ export class HomeComponent {
     });
   }
 
+  editProduct(product: Product) {
+    console.log(product, 'Edit');
+  }
+
+  deleteProduct(product: Product) {
+    console.log(product, 'Delete');
+  }
+
+  addProduct(product: Product) {
+    console.log(product, 'Add');
+  }
+
   onPageChange(event: any) {
     this.fetchProducts(event.page, event.rows);
   }

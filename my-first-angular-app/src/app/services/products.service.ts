@@ -22,4 +22,7 @@ export class ProductsService {
       responseType: 'json'
     });
   }
+
+  
+
 }
