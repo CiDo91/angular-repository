@@ -30,7 +30,7 @@ export class HomeComponent {
   }
 
   editProduct(product: Product) {
-    console.log(product, 'Edit');
+    console.log(product, 'Edit ');
   }
 
   deleteProduct(product: Product) {
